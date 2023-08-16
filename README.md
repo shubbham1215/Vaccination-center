@@ -12,16 +12,12 @@ How to Run
     Server
     Run the server script to start listening for client connections:
 
-    bash
-
 python milk.py
 
 The server will continue to listen for connections until manually terminated.
 
 Client
 Run the client script to simulate client connections:
-
-bash
 
     python ftoken.py
 
