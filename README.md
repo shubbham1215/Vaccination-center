@@ -8,9 +8,8 @@ Client Script (ftoken.py)
 
 The client script (ftoken.py) simulates the connection of clients to the server. It makes requests to connect to the server and waits for a response indicating which window (executive) it has been connected to.
 How to Run
-
-    Server
-    Run the server script to start listening for client connections:
+Server
+Run the server script to start listening for client connections:
 
 python milk.py
 
@@ -19,9 +18,9 @@ The server will continue to listen for connections until manually terminated.
 Client
 Run the client script to simulate client connections:
 
-    python ftoken.py
+python ftoken.py
 
-    This script simulates 10 client connections, and they will receive responses from the server regarding their assigned window.
+This script simulates 10 client connections, and they will receive responses from the server regarding their assigned window.
 
 Configuration
 
